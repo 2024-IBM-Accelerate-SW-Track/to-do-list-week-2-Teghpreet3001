@@ -1,6 +1,7 @@
 import { render, screen, fireEvent} from '@testing-library/react';
 import { unmountComponentAtNode } from 'react-dom';
 import App from './App';
+import React from 'react';
 
 let container = null;
 beforeEach(() => {
